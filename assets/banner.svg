@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">ferkert, full-stack developer and apprentice trainer at Navigate AG, Karlsruhe</title>
+  <desc id="d">Karlsruhe palace with streets fanning out from its tower, after the 1715 city plan.</desc>
+  <style>
+    .pulse { fill: none; stroke: #ffd889; stroke-width: 2.6; stroke-linecap: round;
+             stroke-dasharray: 7 300; stroke-dashoffset: 7;
+             animation: travel 5s linear infinite; }
+    @keyframes travel { 0% { stroke-dashoffset: 7; } 60%, 100% { stroke-dashoffset: -100; } }
+    .ring { fill: none; stroke: #f2b53a; stroke-width: 1.4; opacity: 0;
+            transform-box: fill-box; transform-origin: center;
+            animation: ring 3.2s ease-out infinite; }
+    @keyframes ring { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(4.5); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .ring { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#121a28"/>
+      <stop offset="1" stop-color="#0b111c"/>
+    </linearGradient>
+    <radialGradient id="fadeG" gradientUnits="userSpaceOnUse" cx="900" cy="74" r="620">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="fade" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="300">
+      <rect width="1200" height="300" fill="url(#fadeG)"/>
+    </mask>
+    <linearGradient id="scrim" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#121a28" stop-opacity=".95"/>
+      <stop offset=".4" stop-color="#121a28" stop-opacity=".8"/>
+      <stop offset=".58" stop-color="#121a28" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- Stadtplan -->
+    <g mask="url(#fade)" fill="none">
+      <g stroke="#33445e" stroke-width="1">
+        <path d="M900.0 62.0L900.0 -1326.0"/><path d="M897.7 62.2L626.9 -1299.1"/><path d="M895.4 62.9L364.2 -1219.4"/><path d="M893.3 64.0L122.2 -1090.1"/><path d="M891.5 65.5L-89.9 -915.9"/><path d="M890.0 67.3L-264.1 -703.8"/><path d="M888.9 69.4L-393.4 -461.8"/><path d="M888.2 71.7L-473.1 -199.1"/><path d="M888.0 74.0L-500.0 74.0"/><path d="M888.2 76.3L-473.1 347.1"/><path d="M888.9 78.6L-393.4 609.8"/><path d="M890.0 80.7L-264.1 851.8"/><path d="M910.0 80.7L2064.1 851.8"/><path d="M911.1 78.6L2193.4 609.8"/><path d="M911.8 76.3L2273.1 347.1"/><path d="M912.0 74.0L2300.0 74.0"/><path d="M911.8 71.7L2273.1 -199.1"/><path d="M911.1 69.4L2193.4 -461.8"/><path d="M910.0 67.3L2064.1 -703.8"/><path d="M908.5 65.5L1889.9 -915.9"/><path d="M906.7 64.0L1677.8 -1090.1"/><path d="M904.6 62.9L1435.8 -1219.4"/><path d="M902.3 62.2L1173.1 -1299.1"/>
+        <path d="M520 224H1200"/>
+      </g>
+      <g stroke="#f2b53a" stroke-width="1.4" stroke-opacity=".42">
+        <path d="M891.5 82.5L-89.9 1063.9"/><path d="M893.3 84.0L122.2 1238.1"/><path d="M895.4 85.1L364.2 1367.4"/><path d="M897.7 85.8L626.9 1447.1"/><path d="M900.0 86.0L900.0 1474.0"/><path d="M902.3 85.8L1173.1 1447.1"/><path d="M904.6 85.1L1435.8 1367.4"/><path d="M906.7 84.0L1677.8 1238.1"/><path d="M908.5 82.5L1889.9 1063.9"/>
+      </g>
+      <path class="pulse" pathLength="100" d="M891.5 82.5L674.0 300.0" style="animation-duration:5.2s;animation-delay:0.4s"/><path class="pulse" pathLength="100" d="M893.3 84.0L749.0 300.0" style="animation-duration:4.4s;animation-delay:2.1s"/><path class="pulse" pathLength="100" d="M895.4 85.1L806.4 300.0" style="animation-duration:5.8s;animation-delay:1.2s"/><path class="pulse" pathLength="100" d="M897.7 85.8L855.0 300.0" style="animation-duration:4.8s;animation-delay:3.0s"/><path class="pulse" pathLength="100" d="M900.0 86.0L900.0 300.0" style="animation-duration:4.2s;animation-delay:0.0s"/><path class="pulse" pathLength="100" d="M902.3 85.8L945.0 300.0" style="animation-duration:5.4s;animation-delay:2.6s"/><path class="pulse" pathLength="100" d="M904.6 85.1L993.6 300.0" style="animation-duration:4.6s;animation-delay:1.7s"/><path class="pulse" pathLength="100" d="M906.7 84.0L1051.0 300.0" style="animation-duration:5.0s;animation-delay:3.4s"/><path class="pulse" pathLength="100" d="M908.5 82.5L1126.0 300.0" style="animation-duration:4.9s;animation-delay:0.9s"/>
+    </g>
+    <path d="M796 74A104 104 0 0 0 1004 74" fill="none" stroke="#e5484d" stroke-width="1.6" stroke-opacity=".85"/>
+    <g transform="translate(900 74) scale(1.25)" stroke="#f2b53a" stroke-width="1"
+       stroke-linejoin="round" fill="#121a28">
+      <!-- Turm mit Kuppel und Laterne -->
+      <rect x="-4.5" y="-31" width="9" height="22"/>
+      <path d="M-6.5 -31C-6.5 -37 -2.5 -39 0 -41C2.5 -39 6.5 -37 6.5 -31Z"/>
+      <rect x="-1.8" y="-46" width="3.6" height="5"/>
+      <path d="M0 -46V-50" fill="none"/>
+      <!-- Seitenflügel -->
+      <path d="M-67 0L-63 -5H-44V0Z"/>
+      <rect x="-66" y="0" width="22" height="14"/>
+      <path d="M67 0L63 -5H44V0Z"/>
+      <rect x="44" y="0" width="22" height="14"/>
+      <!-- Hauptbau -->
+      <path d="M-45.5 -4L-40 -11H40L45.5 -4Z"/>
+      <rect x="-44" y="-4" width="88" height="18"/>
+      <!-- Mittelrisalit -->
+      <path d="M-13 -8Q0 -19 13 -8Z"/>
+      <rect x="-12" y="-8" width="24" height="22"/>
+      <path d="M-3 14V9A3 3 0 0 1 3 9V14" fill="none"/>
+      <g fill="#f2b53a" fill-opacity=".55" stroke="none"><rect x="-19" y="-0.5" width="2" height="3.4"/><rect x="-19" y="6.5" width="2" height="3.4"/><rect x="17" y="-0.5" width="2" height="3.4"/><rect x="17" y="6.5" width="2" height="3.4"/><rect x="-25" y="-0.5" width="2" height="3.4"/><rect x="-25" y="6.5" width="2" height="3.4"/><rect x="23" y="-0.5" width="2" height="3.4"/><rect x="23" y="6.5" width="2" height="3.4"/><rect x="-31" y="-0.5" width="2" height="3.4"/><rect x="-31" y="6.5" width="2" height="3.4"/><rect x="29" y="-0.5" width="2" height="3.4"/><rect x="29" y="6.5" width="2" height="3.4"/><rect x="-37" y="-0.5" width="2" height="3.4"/><rect x="-37" y="6.5" width="2" height="3.4"/><rect x="35" y="-0.5" width="2" height="3.4"/><rect x="35" y="6.5" width="2" height="3.4"/><rect x="-50" y="2.5" width="2" height="3"/><rect x="-50" y="8" width="2" height="3"/><rect x="48" y="2.5" width="2" height="3"/><rect x="48" y="8" width="2" height="3"/><rect x="-56" y="2.5" width="2" height="3"/><rect x="-56" y="8" width="2" height="3"/><rect x="54" y="2.5" width="2" height="3"/><rect x="54" y="8" width="2" height="3"/><rect x="-62" y="2.5" width="2" height="3"/><rect x="-62" y="8" width="2" height="3"/><rect x="60" y="2.5" width="2" height="3"/><rect x="60" y="8" width="2" height="3"/><rect x="-7" y="-2" width="2" height="4"/><rect x="-1" y="-2" width="2" height="4"/><rect x="5" y="-2" width="2" height="4"/></g>
+      <path d="M-74 14H74" fill="none" stroke-opacity=".6"/>
+      <circle cx="0" cy="-43.5" r="1.4" fill="#ffd889" stroke="none"/>
+    </g>
+    <circle class="ring" cx="900" cy="19.6" r="3"/>
+    <text x="1172" y="278" text-anchor="end" font-family="ui-monospace,'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="1" fill="#8b98ad">Karlsruhe · 49.01° N · 8.40° E</text>
+
+    <rect width="1200" height="300" fill="url(#scrim)"/>
+
+    <!-- Text -->
+    <text x="80" y="134" font-family="ui-monospace,'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="88" font-weight="700" letter-spacing="-1" fill="#f4efe6">ferkert</text>
+    <text x="84" y="180" font-family="ui-monospace,'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="23" fill="#f4efe6" fill-opacity=".9">full-stack developer · apprentice trainer</text>
+    <text x="84" y="214" font-family="ui-monospace,'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="18" letter-spacing="1" fill="#f2b53a">Symfony · Laravel · Svelte · Vue · AI · CI</text>
+
+  </g>
+</svg>
