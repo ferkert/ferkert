@@ -49,7 +49,7 @@
       </g>
       <path class="pulse" pathLength="100" d="M891.5 82.5L674.0 300.0" style="animation-duration:5.2s;animation-delay:0.4s"/><path class="pulse" pathLength="100" d="M893.3 84.0L749.0 300.0" style="animation-duration:4.4s;animation-delay:2.1s"/><path class="pulse" pathLength="100" d="M895.4 85.1L806.4 300.0" style="animation-duration:5.8s;animation-delay:1.2s"/><path class="pulse" pathLength="100" d="M897.7 85.8L855.0 300.0" style="animation-duration:4.8s;animation-delay:3.0s"/><path class="pulse" pathLength="100" d="M900.0 86.0L900.0 300.0" style="animation-duration:4.2s;animation-delay:0.0s"/><path class="pulse" pathLength="100" d="M902.3 85.8L945.0 300.0" style="animation-duration:5.4s;animation-delay:2.6s"/><path class="pulse" pathLength="100" d="M904.6 85.1L993.6 300.0" style="animation-duration:4.6s;animation-delay:1.7s"/><path class="pulse" pathLength="100" d="M906.7 84.0L1051.0 300.0" style="animation-duration:5.0s;animation-delay:3.4s"/><path class="pulse" pathLength="100" d="M908.5 82.5L1126.0 300.0" style="animation-duration:4.9s;animation-delay:0.9s"/>
     </g>
-    <path d="M796 74A104 104 0 0 0 1004 74" fill="none" stroke="#e5484d" stroke-width="1.6" stroke-opacity=".85"/>
+    <path d="M796 74A104 104 0 0 0 1004 74" fill="none" stroke="#f2b53a" stroke-width="1.6" stroke-opacity=".85"/>
     <g transform="translate(900 74) scale(1.25)" stroke="#f2b53a" stroke-width="1"
        stroke-linejoin="round" fill="#121a28">
       <!-- Turm mit Kuppel und Laterne -->
