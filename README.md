@@ -1,7 +1,7 @@
 <img src="assets/banner.svg" width="100%" alt="ferkert, full-stack developer and apprentice trainer at Navigate AG, Karlsruhe">
 
 Full-stack developer and apprentice trainer at [Navigate AG](https://navigate.de) in Karlsruhe.
-I started with an apprenticeship from 2009 to 2011, have worked as a developer ever since and have held my trainer certification (AEVO) since 2022.
+I started out as an apprentice myself, have worked as a developer ever since and hold the German trainer certification (AEVO).
 
 I build Symfony and Laravel applications, CMS-driven portals and progressive web apps, with Svelte and Vue on the front and REST APIs, data imports, charts and document pipelines behind them.
 More and more of that work involves LLMs: retrieval-augmented chat on PostgreSQL and guardrails that keep the model on topic.
@@ -37,9 +37,8 @@ I also own the parts nobody sees: CI pipelines, static analysis, deployments and
         "pair-programmer": "claude-code"
     },
     "extra": {
-        "apprenticeship": "2009 to 2011",
-        "developer-since": 2011,
-        "trainer-since": 2022
+        "career": ["apprentice", "developer", "apprentice trainer"],
+        "certification": "AEVO"
     }
 }
 ```
