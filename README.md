@@ -54,8 +54,10 @@ I also own the parts nobody sees: CI pipelines, static analysis, deployments and
 - **Market data and charts**: intraday, end-of-day and historical data pulled from external APIs, streamed over WebSockets with Node.js and turned into time-series charts
 - **Data from many sources**: MariaDB, MySQL, PostgreSQL and SQL Server, sometimes all in one application
 - **Document generation**: PDFs, spreadsheets and office files built with XSLT, mPDF, PhpSpreadsheet and LibreOffice
-- **Quality gates in CI**: PHPStan, Larastan, Rector, PHP-CS-Fixer, PHP_CodeSniffer, PHPMD, PHPUnit, ESLint, Stylelint, Prettier, vue-tsc and security audits on every merge request
-- **Shipping and docs**: GitLab CI, GitHub Actions, Docker, DDEV and Ansible; documentation as code with AsciiDoc, PlantUML and Doxygen
+- **CI/CD and supply chain**
+  - **Quality gates** on every merge request: PHPStan, Larastan, Rector, PHP-CS-Fixer, PHP_CodeSniffer, PHPMD, PHPUnit, ESLint, Stylelint, Prettier, vue-tsc and security audits
+  - **SBOMs for Dependency-Track**: every push to main produces a CycloneDX SBOM for Composer and npm, so known vulnerabilities in dependencies show up in one place
+- **Documentation as code** with AsciiDoc, PlantUML and Doxygen
 
 ### Toolbox
 
@@ -131,6 +133,7 @@ I also own the parts nobody sees: CI pipelines, static analysis, deployments and
       <a href="https://prettier.io/"><img src="https://img.shields.io/badge/Prettier-121a28?style=flat-square&logo=prettier&logoColor=f2b53a" alt="Prettier"></a>
       <a href="https://cs.symfony.com/"><img src="https://img.shields.io/badge/PHP--CS--Fixer-121a28?style=flat-square" alt="PHP-CS-Fixer"></a>
       <a href="https://stylelint.io/"><img src="https://img.shields.io/badge/Stylelint-121a28?style=flat-square" alt="Stylelint"></a>
+      <a href="https://dependencytrack.org/"><img src="https://img.shields.io/badge/Dependency--Track-121a28?style=flat-square" alt="Dependency-Track"></a>
     </td>
   </tr>
   <tr>
